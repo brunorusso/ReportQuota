@@ -1,0 +1,20 @@
+Basic Installation
+==================
+
+   These are generic installation instructions.
+
+1-) Extract the files for web server path, for example: /var/www/htdocs
+#tar xzvf ReportQuota-0.9.tar.gz -C /var/www/htdocs
+
+2-)Edit the file /var/www/htdocs/ReportQuota-0.9/includes/config.php
+and configure the variables:
+$dominio and $suporte
+$dominio is the name of your domain
+$suporte is the email adress used to send notify the users
+
+3-)You can set appointments an automatic verification of space in quota.  Thus when the user to reach 90% or plus an email is sent to the user informing the used space. To configure this option you need a crontab que file /var/www/htdocs/ReportQuota-0.9/avisa.php
+This is optional.
+
+4-) Now you can access on url: http://localhost/ReportQuota-0.9
+
+Good Lucky!
