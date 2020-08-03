@@ -1,4 +1,4 @@
-== About
+**About**
 
 Reportquota is one script written in PHP that shows the quota of each user of the system. 
 
